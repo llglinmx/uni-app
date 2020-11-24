@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.feed-box.data-v-91bba7b4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.feed-box .feed-box-content.data-v-91bba7b4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow-y: scroll;
+  padding: 0 48rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 1rpx solid #EBEBEB;
+}
+.feed-box .feed-box-content .feed-content-msg.data-v-91bba7b4 {
+  height: 120rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin: 40rpx 0 0;
+  padding: 0 32rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+  background: #E5F2FF;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.feed-box .feed-box-content .feed-content-msg .feed-content-msg-txt.data-v-91bba7b4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-right: 30rpx;
+  font-size: 28rpx;
+  color: #2626FF;
+  font-weight: 500;
+}
+.feed-box .feed-box-content .feed-content-msg .feed-content-msg-close.data-v-91bba7b4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 20rpx;
+  height: 50rpx;
+}
+.feed-box .feed-box-content .feed-content-msg .feed-content-msg-close image.data-v-91bba7b4 {
+  width: 20rpx;
+  height: 20rpx;
+}
+.feed-box .feed-box-content .msg-close.data-v-91bba7b4 {
+  height: 0rpx;
+  margin-top: 0;
+  overflow: hidden;
+}
+.feed-box .feed-box-content .feed-content-redio.data-v-91bba7b4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 40rpx 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.feed-box .feed-box-content .feed-content-redio .feed-redio-msg.data-v-91bba7b4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.feed-box .feed-box-content .feed-content-redio .feed-redio-msg image.data-v-91bba7b4 {
+  width: 42rpx;
+  height: 42rpx;
+}
+.feed-box .feed-box-content .feed-content-redio .feed-redio-msg text.data-v-91bba7b4 {
+  margin-left: 24rpx;
+  font-size: 28rpx;
+  color: #1D1D26;
+}
+.feed-box .feed-box-content .feed-content-redio .feed-redio-msg.data-v-91bba7b4:nth-child(2) {
+  margin-left: 100rpx;
+}
+.feed-box .feed-box-content .feed-content-input.data-v-91bba7b4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 32rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #F5F5F5;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+}
+.feed-box .feed-box-content .feed-content-input .feed-content-textarea.data-v-91bba7b4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-bottom: 25rpx;
+  color: #1D1D26;
+}
+.feed-box .feed-box-content .feed-content-input .feed-content-textarea textarea.data-v-91bba7b4 {
+  font-size: 28rpx;
+}
+.feed-box .feed-box-content .feed-content-input .feed-content-list.data-v-91bba7b4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 125rpx;
+}
+.feed-box .feed-box-content .feed-content-input .feed-content-list .image-li.data-v-91bba7b4 {
+  position: relative;
+  margin-right: 24rpx;
+}
+.feed-box .feed-box-content .feed-content-input .feed-content-list .image-li .list-li-img.data-v-91bba7b4 {
+  width: 100rpx;
+  height: 100rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+  overflow: hidden;
+}
+.feed-box .feed-box-content .feed-content-input .feed-content-list .image-li .list-li-img image.data-v-91bba7b4 {
+  width: 100%;
+  height: 100%;
+}
+.feed-box .feed-box-content .feed-content-input .feed-content-list .image-li .list-li-del-ico.data-v-91bba7b4 {
+  position: absolute;
+  top: -25rpx;
+  right: -25rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 50rpx;
+  height: 50rpx;
+}
+.feed-box .feed-box-content .feed-content-input .feed-content-list .image-li .list-li-del-ico image.data-v-91bba7b4 {
+  width: 36rpx;
+  height: 36rpx;
+}
+.feed-box .feed-box-content .feed-content-input .feed-content-list .list-msg-text.data-v-91bba7b4 {
+  font-size: 28rpx;
+  color: #999;
+}
+.feed-box .feed-box-content .feed-content-input .foot-msg.data-v-91bba7b4 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  position: absolute;
+  right: 20rpx;
+  bottom: 10rpx;
+  font-size: 20rpx;
+  color: #999;
+}
+.feed-box .feed-box-content .feed-content-mail.data-v-91bba7b4 {
+  width: 100%;
+  height: 78rpx;
+  margin-top: 40rpx;
+  padding: 0 32rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #f5f5f5;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+}
+.feed-box .feed-box-content .feed-content-mail input.data-v-91bba7b4 {
+  width: 100%;
+  height: 100%;
+  font-size: 28rpx;
+}
+.feed-box .feed-box-content .feed-content-btn.data-v-91bba7b4 {
+  margin-top: 80rpx;
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "nav-bar": "/components/nav-bar/nav-bar",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "vip-popup": "/components/vip-popup/vip-popup"
+  }
+}

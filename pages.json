@@ -1,0 +1,73 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/setTasks/setTasks",
+      "style": {}
+    },
+    {
+      "path": "pages/login/login",
+      "style": {}
+    },
+    {
+      "path": "pages/home/home",
+      "style": {}
+    },
+    {
+      "path": "pages/index/index",
+      "style": {}
+    },
+    {
+      "path": "pages/formulatePlan/formulatePlan",
+      "style": {}
+    },
+    {
+      "path": "pages/personal/personal",
+      "style": {}
+    },
+    {
+      "path": "pages/myIntegral/myIntegral",
+      "style": {}
+    },
+    {
+      "path": "pages/myPlan/myPlan",
+      "style": {}
+    },
+    {
+      "path": "pages/set/set",
+      "style": {}
+    },
+    {
+      "path": "pages/help/help",
+      "style": {}
+    },
+    {
+      "path": "pages/about/about",
+      "style": {}
+    },
+    {
+      "path": "pages/feedback/feedback",
+      "style": {}
+    },
+    {
+      "path": "pages/mainHome/mainHome",
+      "style": {
+        "navigationBarBackgroundColor": "#F8F8F8"
+      }
+    },
+    {
+      "path": "pages/learningPlan/learningPlan",
+      "style": {}
+    }
+  ],
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "app-plus": {
+      "titleNView": false
+    },
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

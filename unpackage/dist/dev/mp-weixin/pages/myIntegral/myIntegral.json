@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "nav-bar": "/components/nav-bar/nav-bar",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
